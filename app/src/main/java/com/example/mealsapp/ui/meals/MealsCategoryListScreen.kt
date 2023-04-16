@@ -47,11 +47,11 @@ fun Meal(meal: Meal) {
             .padding(16.dp)
     ) {
 
-        Row(Modifier.clickable {  }) {
+        Row(Modifier.clickable { }) {
             // Image
             AsyncImage(
                 model = meal.imageUrl,
-                contentDescription = "User Profile Picture",
+                contentDescription = "Meal Picture",
                 modifier = Modifier
                     .size(88.dp)
                     .padding(4.dp),
